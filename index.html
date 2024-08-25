@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21BCE10419</title>
+</head>
+<body>
+    <h1>BFHL API</h1>
+
+    <label for="jsonInput">Enter JSON:</label>
+    <textarea id="jsonInput" rows="5" cols="50" placeholder='{"data": ["A", "1", "b", "3"]}'></textarea>
+    <br><br>
+    <button onclick="submitData()">Submit</button>
+
+    <h2>Filter Results:</h2>
+    <label><input type="checkbox" id="alphabets"> Alphabets</label>
+    <label><input type="checkbox" id="numbers"> Numbers</label>
+    <label><input type="checkbox" id="highestLowercaseAlphabet"> Highest Lowercase Alphabet</label>
+    <br><br>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
